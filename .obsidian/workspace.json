@@ -8,63 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "531a663f112f0f54",
+            "id": "f5d01c7c899da7fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📓 Log/🗒 Daily/2022-11-20, Sun 20 Nov.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7252bd1130d80d97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_♻️ Templates/4. ⏱ Todo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fd1964a006e41e2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e0f8e601e40b53fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_♻️ Templates/4. ⏱ Todo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "689d8c284ec18c60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "📓 Log/🗓 2022/November/2022-11-19, Sat 19 Nov.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "📓 Log/🗓 2022/November/2022-11-19, Sat 19 Nov.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "📓 Log/🗓 2022/November/2022-11-19, Sat 19 Nov.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "📓 Log/🗓 2022/November/2022-11-19, Sat 19 Nov.md"
               }
             }
           },
@@ -197,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "📓 Log/🗓 2022/November/2022-11-19, Sat 19 Nov.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -232,17 +187,17 @@
     "direction": "horizontal",
     "width": 281.5
   },
-  "active": "689d8c284ec18c60",
+  "active": "f5d01c7c899da7fe",
   "lastOpenFiles": [
+    "📓 Log/🗒 Daily/2022-11-20, Sun 20 Nov.md",
+    "_♻️ Templates/0. 📓 Daily.md",
+    "README.md",
     "Untitled.md",
     "📓 Log/📖 Backlog.md",
     "📓 Log/🗒 Daily/2022-11-21, Mon 21 Nov.md",
     "_♻️ Templates/4. ⏱ Todo.md",
     "_♻️ Templates/3. 🧩 Project.md",
     "_♻️ Templates/2. 📝 Note.md",
-    "_♻️ Templates/1. 👥 Meeting.md",
-    "_♻️ Templates/0. 📓 Daily.md",
-    "README.md",
-    "👥 Meeting/🏃 Actions.md"
+    "_♻️ Templates/1. 👥 Meeting.md"
   ]
 }
