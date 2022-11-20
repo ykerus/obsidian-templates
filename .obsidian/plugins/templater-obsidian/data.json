@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "📓 Log",
-      "template": "_♻️ Templates/Daily.md"
+      "template": "_♻️ Templates/0. 📓 Daily.md"
     }
   ],
   "syntax_highlighting": true,
