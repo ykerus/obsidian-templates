@@ -21,7 +21,7 @@ group by split(split(string(section), ">")[1], "]")[0]
 
 ## 👥 Open actions from meetings
 
-%%Prerquisite: meeting folder is called "👥 Meetings"%%
+%%Prerquisite: meeting folder is called "👥 Meeting"%%
 ```dataview
 task
 from #meeting 
