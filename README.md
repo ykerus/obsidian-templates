@@ -1,4 +1,4 @@
-# README
+# Obsidian templates
 
 ---
 
@@ -25,5 +25,5 @@ Open a terminal in your vault and run `make structure` to sort all daily notes (
 right folders. For example, the note `2022-11-10, ...` will be placed into the folder 
 `🗓 2022/November`. `make structure` will call `structure.py` under `.obsidian/scripts/`
 
-Note that the script `strucure.py` assumes all daily notes to be located under `📓 Log/🗒 Daily` 
+Note that the script `structure.py` assumes all daily notes to be located under `📓 Log/🗒 Daily` 
 and that the folders for each year get the prefix emoticon `🗓`. If you want a different structure or naming, make sure to change that in both your notes/folders and in `structure.py`
