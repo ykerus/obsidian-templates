@@ -1,4 +1,4 @@
-# README
+# Obsidian templates
 
 ---
 
