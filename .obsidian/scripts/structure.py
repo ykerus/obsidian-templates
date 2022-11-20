@@ -2,6 +2,10 @@ import os
 from typing import Tuple
 from datetime import datetime, timedelta
 
+BASE_FOLDER = "00. 📓 Log"
+DAILY_FOLDER = "🗒 Daily"
+YEAR_FOLDER_EMOJI = "🗓"
+
 MONTH_NAME = {
     1: "January",
     2: "February",
@@ -67,9 +71,9 @@ def before_today(date: str) -> bool:
 
 
 def structure_daily_notes(
-    base_folder: str = "📓 Log",
-    daily_folder: str = "🗒 Daily",
-    year_folder_emoji: str = "🗓",
+    base_folder: str,
+    daily_folder: str,
+    year_folder_emoji: str,
 ) -> None:
 
     notes, moved = 0, 0
@@ -93,4 +97,8 @@ def structure_daily_notes(
 
 
 if __name__ == "__main__":
-    structure_daily_notes()
+    structure_daily_notes(
+        base_folder=BASE_FOLDER,
+        daily_folder=DAILY_FOLDER,
+        year_folder_emoji=YEAR_FOLDER_EMOJI,
+    )
