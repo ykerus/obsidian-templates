@@ -8,7 +8,7 @@ Tags: #log
 
 ## 🗒 Open todos from daily notes
 
-%%List uncompleted todos of yesterday or before's daily notes%%
+%%List uncompleted todos from daily notes of yesterday or before%%
 ```dataview
 task
 from #log 
