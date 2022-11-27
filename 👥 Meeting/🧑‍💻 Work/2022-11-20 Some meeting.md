@@ -21,10 +21,10 @@ Date: 2022-11-20
 
 
 
-## 📝 Summary
+## 📝 Notes
 
 
 
-## 🤔 Preparation
+## 🧐 Preparation
 
 - [ ] Prepare meeting: Some meeting 🗓2022-11-20 

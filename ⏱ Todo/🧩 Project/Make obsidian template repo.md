@@ -26,7 +26,7 @@ Date: 2022-11-20
 - [ ] Upload vault with templates to Github
 - [ ] Spread the word
 
-## 💎 Succes criteria
+## ✅ Succes criteria
 
 - Templates available for anyone to download and use
 - Made a person happy
