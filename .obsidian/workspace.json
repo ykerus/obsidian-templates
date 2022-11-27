@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16a410377026ce9a",
+            "id": "d10a322c46053d28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📓 Log/🗒 Daily/2022-11-20, Sun 20 Nov.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📓 Log/🗒 Daily/2022-11-20, Sun 20 Nov.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📓 Log/🗒 Daily/2022-11-20, Sun 20 Nov.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📓 Log/🗒 Daily/2022-11-20, Sun 20 Nov.md"
+                "file": "README.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📓 Log/🗒 Daily/2022-11-20, Sun 20 Nov.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -187,17 +187,17 @@
     "direction": "horizontal",
     "width": 327.5
   },
-  "active": "16a410377026ce9a",
+  "active": "d10a322c46053d28",
   "lastOpenFiles": [
-    "📓 Log/🗒 Daily/2022-11-20, Sun 20 Nov.md",
+    "2022-11-27 Example meeting.md",
+    "README.md",
+    "⏱ Todo/🧩 Project/Some project that I am doing.md",
+    "⏱ Todo/🧩 Project/Make obsidian template repo.md",
+    "⏱ Todo/🧩 Project/Some project that I still want to do.md",
     "_♻️ Templates/4. ⏱ Todo.md",
-    "📓 Log/📖 Backlog.md",
-    "📓 Log/🌈 Lessons.md",
-    "👥 Meeting/🏃 Actions.md",
-    "📓 Log/🗒 Daily/2022-11-21, Mon 21 Nov.md",
-    "📓 Log/🗓 2022/November/2022-11-19, Sat 19 Nov.md",
-    "_♻️ Templates/1. 👥 Meeting.md",
     "_♻️ Templates/3. 🧩 Project.md",
-    "_♻️ Templates/2. 📝 Note.md"
+    "👥 Meeting/🧑‍💻 Work/2022-11-20 Some meeting.md",
+    "👥 Meeting/🏃 Actions.md",
+    "_♻️ Templates/1. 👥 Meeting.md"
   ]
 }
