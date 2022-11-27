@@ -13,6 +13,8 @@ This repository contains an obsidian vault with templates and structures that ma
 3. Open this repository as vault in Obsidian
 4. Create daily notes, meeting notes, projects, todos, etc.
 
+When you open this README in Obsidian, the file and image references in following sections will render nicely.
+
 Note: only if you follow these steps exactly, your keyboard shortcuts will be the same as used in the following sections. If you incorporated the templates in this repository in your own existing vault, you might have to configure these shortcuts yourself.
 
 ## 📓 Organise your days with daily notes
