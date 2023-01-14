@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_♻️ Templates/7. 🚀 Goal.md",
+                "file": "📓 Log/🗒 Daily/2023-01-14, Sat 14 Jan.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "cb81396069ea082a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_♻️ Templates/7. 🚀 Goal.md",
+                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_♻️ Templates/7. 🚀 Goal.md",
+                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_♻️ Templates/7. 🚀 Goal.md"
+                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg"
               }
             }
           },
@@ -152,7 +163,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_♻️ Templates/7. 🚀 Goal.md",
+                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -201,17 +212,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "2d75aee32c6da3a9",
+  "active": "cb81396069ea082a",
   "lastOpenFiles": [
+    "_🎨 Excalidraw/2023-01-14.excalidraw.md",
+    "_🎨 Excalidraw/2023-01-14.excalidraw.svg",
+    "Untitled.md",
+    "📓 Log/🗒 Daily/2023-01-14, Sat 14 Jan.md",
     "_♻️ Templates/7. 🚀 Goal.md",
     "_♻️ Templates/6. 🧩 Project.md",
     "_♻️ Templates/5. ⏱ Todo.md",
     "_♻️ Templates/4. 📝 Note.md",
     "_♻️ Templates/3. 📈 1on1.md",
-    "_♻️ Templates/2. 🧍‍♀️ Standup.md",
-    "_♻️ Templates/1. 👥 Meeting.md",
-    "_♻️ Templates/0. 📓 Daily.md",
-    "👥 Meeting/🧑‍💻 General/2023-01-14 Some meeting.md",
-    "👥 Meeting/🧑‍💻 Work/2022-11-20 Some meeting.md"
+    "_♻️ Templates/2. 🧍‍♀️ Standup.md"
   ]
 }
