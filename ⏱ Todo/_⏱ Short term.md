@@ -10,7 +10,7 @@ Status: #todo/ongoing
 ## 🧑‍💻Work
 
 - [ ] Do something work-related short-term
-- [ ] Do something work-related  short-term before a certain date 🗓2022-12-01
+- [ ] Do something work-related short-term before a certain date 🗓2022-12-01
 
 ## 🏡 Personal
 

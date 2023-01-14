@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "369db181081f7322",
+        "id": "3110c7b2102ce482",
         "type": "tabs",
         "children": [
           {
-            "id": "2d75aee32c6da3a9",
+            "id": "a2d074cb804051c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📓 Log/🗒 Daily/2023-01-14, Sat 14 Jan.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "cb81396069ea082a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg"
+                "file": "README.md"
               }
             }
           },
@@ -163,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_🎨 Excalidraw/2023-01-14.excalidraw.svg",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -196,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,17 +200,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "cb81396069ea082a",
+  "active": "09ff7a6696e8c9ac",
   "lastOpenFiles": [
-    "_🎨 Excalidraw/2023-01-14.excalidraw.md",
-    "_🎨 Excalidraw/2023-01-14.excalidraw.svg",
-    "Untitled.md",
+    "👥 Meeting/🧑‍💻 General/2023-01-18 Some meeting.md",
     "📓 Log/🗒 Daily/2023-01-14, Sat 14 Jan.md",
-    "_♻️ Templates/7. 🚀 Goal.md",
-    "_♻️ Templates/6. 🧩 Project.md",
-    "_♻️ Templates/5. ⏱ Todo.md",
-    "_♻️ Templates/4. 📝 Note.md",
-    "_♻️ Templates/3. 📈 1on1.md",
-    "_♻️ Templates/2. 🧍‍♀️ Standup.md"
+    "🏡 Personal/🚀 Goals/Make goals more concrete.md",
+    "⏱ Todo/🔍 Look up.md",
+    "⏱ Todo/📚 Books.md",
+    "⏱ Todo/_📆 Long term.md",
+    "⏱ Todo/_⏱ Short term.md",
+    "⏱ Todo/🧩 Project/Make obsidian template repo.md",
+    "⏱ Todo/🧩 Project/Some project that I am doing.md",
+    "⏱ Todo/🧩 Project/Some project that I still want to do.md"
   ]
 }

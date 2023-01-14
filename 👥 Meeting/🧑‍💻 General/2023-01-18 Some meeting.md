@@ -5,7 +5,7 @@
 Attendees: 
 Links: [[🏃 Actions]]
 Tags: #meeting
-Date: 2023-01-14 
+Date: 2023-01-18 
 
 ---
 
@@ -27,4 +27,4 @@ Date: 2023-01-14
 
 ## 🧐 Preparation
 
-- [ ] Prepare meeting: Some meeting 🗓2023-01-14 
+- [ ] Prepare meeting: Some meeting 🗓2023-01-18 

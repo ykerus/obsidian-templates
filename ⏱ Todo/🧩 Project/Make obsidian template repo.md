@@ -29,7 +29,7 @@ Date: 2022-11-20
 ## ✅ Succes criteria
 
 - Templates available for anyone to download and use
-- Made a person happy
+- Made a person happy with it
 
 ## 📈 Results
 
@@ -37,7 +37,7 @@ Date: 2022-11-20
 
 ## 📓 Log
 
-- [x] Copy my own vault and call obsidian-templates
+- [x] Copy my own vault and adjust for repo
 - [x] Remove irrevant files and content
 - [x] Document templates
 - [x] Add emoticons
