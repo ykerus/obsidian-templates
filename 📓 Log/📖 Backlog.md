@@ -6,34 +6,19 @@ Tags: #log
 
 ---
 
-## 🗒 Open todos from daily notes
-
-%%List uncompleted todos from daily notes of yesterday or before%%
-```dataview
-task
-from #log 
-where !completed 
-and (date(split(split(string(section), "/")[length(split(string(section), "/"))-1], ",")[0]) < date(today))
-and !contains(string(section), "Lessons")
-group by split(split(string(section), ">")[1], "]")[0]
-```
----
-
 ## 👥 Open actions from meetings
 
-%%Prerquisite: meeting folder is called "👥 Meeting"%%
 ```dataview
 task
 from #meeting 
 where !completed 
 and contains(string(section), "Actions")
-group by join(split(split(split(path, "👥 Meeting/")[1], ".md")[0], "/"), " / ")
+group by join(split(split(split(path, "02. 👥 Meeting/")[1], ".md")[0], "/"), " / ")
 ```
 ---
 
 ## ⏱ Short term todos
 
-%%Prerequisite: short term todos are in a note with a name containing "Short term"%%
 ```dataview
 task
 from #todo/ongoing
@@ -45,7 +30,6 @@ group by split(split(string(section), ">")[1], "]")[0]
 
 ## ✨ Ongoing todos
 
-%%List all onging todo notes%%
 ```dataview
 list
 from #todo/ongoing
@@ -54,19 +38,34 @@ from #todo/ongoing
 
 ## 🧩 Projects
 
-%%List all projects/tasks tagged with # todo/todo or todo/doing%%
-
 ### 📚 Todo
 ```dataview
 list
 from #todo/todo
 ```
-
 ### ✍ Doing
 ```dataview
 list
 from #todo/doing
 ```
 
+---
 
+## 🚀 Goals
 
+```dataviewjs
+
+for (let path_ of dv.pagePaths("#goal").sort()) {
+	let result = await dv.tryQuery("" +
+	"task " +
+	'where (path = "' + path_ + '") ' +
+	"and ( " +
+		'(!completed and !contains(text, "🚩2") and !contains(text, "🎯2")) ' +
+		'or (completed and (contains(text, "🚩<") or contains(text, "🎯<"))) ' +
+	") " +
+	"sort section ASC " +
+	"limit 1 "
+	)
+	dv.taskList(result.values)
+}
+```

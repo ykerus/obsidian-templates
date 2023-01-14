@@ -39,7 +39,7 @@ There are several ways to navigate between daily notes:
 
 You probably don't want to list all your todos in a single daily note and move them everyday to the next one. For this reason, the daily note template includes links to a [[📖 Backlog]] note and a [[_⏱ Short term]] todos note. These files may serve as inspiration for the things you want to include in your daily note.
 
-The [[📖 Backlog]] note is used to collect all open todos from [[4. ⏱ Todo]] notes, i.e. notes which are tagged with #todo, as well as forgotten todos or actions from daily notes or meetings. This note should help you keep track of your tasks, and prevent losing any important open todos.
+The [[📖 Backlog]] note is used to collect all open todos from [[5. ⏱ Todo]] notes, i.e. notes which are tagged with #todo, as well as forgotten todos or actions from daily notes or meetings. This note should help you keep track of your tasks, and prevent losing any important open todos.
 
 The [[_⏱ Short term]]  todos note is used to list all short term todos, which aren't yet included in any daily note. The todos in this note are also queried in the backlog note. Similar to the short term todos note, a [[_📆 Long term]] todos note is included in this repository for less time-critical todos.
 
@@ -93,6 +93,6 @@ A meeting may lead to action points. These can be listed in a meeting note under
 
 ## 📄 Other templates
 
-To add an ongoig todo note, use the template [[4. ⏱ Todo]] and place the note under  `⏱ Todo/`. For example, you may want to add a note called `✍️ Blogposts` in which you list ideas for blog posts you still want to write. This note is automatically tagged with `#todo/ongoing`.
+To add an ongoig todo note, use the template [[5. ⏱ Todo]] and place the note under  `⏱ Todo/`. For example, you may want to add a note called `✍️ Blogposts` in which you list ideas for blog posts you still want to write. This note is automatically tagged with `#todo/ongoing`.
 
-To add a new project idea, use the template [[3. 🧩 Project]] and place the note under `⏱ Todo/🧩 Project/`.  Use the tags `#todo/todo`, `#todo/doing` and `#todo/done` to indicate the status of the project. These tags are used in the backlog note, to query the projects you might want to pick up.
+To add a new project idea, use the template [[6. 🧩 Project]] and place the note under `⏱ Todo/🧩 Project/`.  Use the tags `#todo/todo`, `#todo/doing` and `#todo/done` to indicate the status of the project. These tags are used in the backlog note, to query the projects you might want to pick up.

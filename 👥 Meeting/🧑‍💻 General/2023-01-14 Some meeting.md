@@ -5,13 +5,13 @@
 Attendees: 
 Links: [[🏃 Actions]]
 Tags: #meeting
-Date: 2022-11-20 
+Date: 2023-01-14 
 
 ---
 
 ## 🎯 Goals
 
-- Show example meeting
+- Show example meeting note
 
 ## 🏃 Actions
 
@@ -27,4 +27,4 @@ Date: 2022-11-20
 
 ## 🧐 Preparation
 
-- [ ] Prepare meeting: Some meeting 🗓2022-11-20 
+- [ ] Prepare meeting: Some meeting 🗓2023-01-14 
