@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3110c7b2102ce482",
+        "id": "e85e95ec4e5fbbfc",
         "type": "tabs",
         "children": [
           {
-            "id": "a2d074cb804051c4",
+            "id": "4884a801be546fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb7cb9c801a12acb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,17 +213,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "09ff7a6696e8c9ac",
+  "active": "fb7cb9c801a12acb",
   "lastOpenFiles": [
-    "👥 Meeting/🧑‍💻 General/2023-01-18 Some meeting.md",
-    "📓 Log/🗒 Daily/2023-01-14, Sat 14 Jan.md",
-    "🏡 Personal/🚀 Goals/Make goals more concrete.md",
-    "⏱ Todo/🔍 Look up.md",
-    "⏱ Todo/📚 Books.md",
+    "_📎 Attachments/Pasted image 20221127172151.png",
+    "_📎 Attachments/Pasted image 20221127162631.png",
+    "_📎 Attachments/Pasted image 20221127162146.png",
+    "_📎 Attachments/Pasted image 20221127160935.png",
+    "README.md",
+    "📓 Log/📖 Backlog.md",
+    "_♻️ Templates/6. 🧩 Project.md",
     "⏱ Todo/_📆 Long term.md",
-    "⏱ Todo/_⏱ Short term.md",
-    "⏱ Todo/🧩 Project/Make obsidian template repo.md",
-    "⏱ Todo/🧩 Project/Some project that I am doing.md",
-    "⏱ Todo/🧩 Project/Some project that I still want to do.md"
+    "📓 Log/🗒 Daily/2023-01-14, Sat 14 Jan.md",
+    "📓 Log/🚩 Milestones.md"
   ]
 }
