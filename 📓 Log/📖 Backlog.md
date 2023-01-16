@@ -13,7 +13,7 @@ task
 from #meeting 
 where !completed 
 and contains(string(section), "Actions")
-group by join(split(split(split(path, "02. 👥 Meeting/")[1], ".md")[0], "/"), " / ")
+group by join(split(split(split(path, "👥 Meeting/")[1], ".md")[0], "/"), " / ")
 ```
 ---
 
