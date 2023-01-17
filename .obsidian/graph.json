@@ -4,19 +4,34 @@
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "#log",
+      "color": {
+        "a": 1,
+        "rgb": 3552822
+      }
+    },
+    {
+      "query": "#meeting",
+      "color": {
+        "a": 1,
+        "rgb": 3552822
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 0.971171773444754,
+  "lineSizeMultiplier": 2.35245311049211,
   "collapse-forces": false,
-  "centerStrength": 0.620279947916667,
-  "repelStrength": 11.57470703125,
+  "centerStrength": 0.389340761374188,
+  "repelStrength": 10.3019205729167,
   "linkStrength": 1,
-  "linkDistance": 135,
-  "scale": 1.773266024446619,
+  "linkDistance": 158,
+  "scale": 2.954206781871513,
   "close": true
 }

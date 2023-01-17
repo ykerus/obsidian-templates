@@ -163,6 +163,15 @@
       "key": "A"
     }
   ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
   "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed": [
     {
       "modifiers": [
@@ -172,6 +181,33 @@
       "key": "Enter"
     }
   ],
+  "window:zoom-in": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "="
+    }
+  ],
+  "window:zoom-out": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Escape"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-popout": [],
   "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout": [
     {
       "modifiers": [
@@ -179,6 +215,32 @@
         "Shift"
       ],
       "key": "Enter"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "'"
     }
   ]
 }

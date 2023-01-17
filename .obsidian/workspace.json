@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e85e95ec4e5fbbfc",
+        "id": "1b0a17d1c66678a7",
         "type": "tabs",
         "children": [
           {
-            "id": "4884a801be546fb2",
+            "id": "5556cec2c1060c9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "fb7cb9c801a12acb",
+            "id": "5ceb845064dea51b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 256.5
   },
   "right": {
     "id": "f1571c7727375f2c",
@@ -198,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,20 +210,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "fb7cb9c801a12acb",
+  "active": "5ceb845064dea51b",
   "lastOpenFiles": [
-    "_📎 Attachments/Pasted image 20221127172151.png",
-    "_📎 Attachments/Pasted image 20221127162631.png",
-    "_📎 Attachments/Pasted image 20221127162146.png",
-    "_📎 Attachments/Pasted image 20221127160935.png",
-    "README.md",
-    "📓 Log/📖 Backlog.md",
-    "_♻️ Templates/6. 🧩 Project.md",
-    "⏱ Todo/_📆 Long term.md",
+    "📓 Log/🗒 Daily/2023-01-17, Tue 17 Jan.md",
+    "📓 Log/🗒 Daily/Untitled.md",
     "📓 Log/🗒 Daily/2023-01-14, Sat 14 Jan.md",
-    "📓 Log/🚩 Milestones.md"
+    "README.md",
+    "🪧 Presentation/Presentation.md",
+    "_📎 Attachments/Pasted image 20230115212635.png",
+    "_📎 Attachments/Pasted image 20221127162631.png",
+    "_📎 Attachments/Pasted image 20221127160935.png",
+    "file name.md",
+    "new file.md"
   ]
 }
