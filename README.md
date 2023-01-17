@@ -104,4 +104,4 @@ To add an ongoig todo note, use the template [[5. ⏱ Todo]]. For example, you m
 
 To add a new project idea, use the template [[6. 🧩 Project]] .  Use the tags `#todo/todo`, `#todo/doing` and `#todo/done` to indicate the status of the project. These tags are used in the backlog note, to query the projects you might want to pick up.
 
-There's more ...
+Check out the other ones! "7. 🚀 Goal" is my last WIP
