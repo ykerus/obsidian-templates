@@ -114,6 +114,8 @@ You can also find the habits tracker overview in [[📈 Habits]].
 
 This tracker is created using the plugin "CustomJS". The Javascript files that are used to analyse the daily notes for habits can be found under `.obsidian/scripts`.
 
+![[Pasted image 20230729185113.png|600]]
+
 ### 🌍 Scraping the news and weather
 
 One section of the daily notes contains some Python blocks.
@@ -122,11 +124,13 @@ When these are executed, a scraper will run and grab info from news or weather w
 This is included in this template as an example.
 To make this work you should configure your "Execute Code" plugin settings.
 
+![[Pasted image 20230729185208.png|600]]
+
 ### 🎉 Birthdays
 
 Birthdays are queried from the "person" notes. You can find a template for this in the Templates folder. All you have to do is add a task in the person-note with 🎉`<yyyy-mm-dd>` and the person's birthday will appear in your daily note. E.g.
 
-- [ ] Yke Rusticus jarig 🎉`0000-01-30`
+- [ ] Yke jarig 🎉`0000-01-30`
 
 Often, you probably won't know the year, but filling in `0000` for the year still works.
 
