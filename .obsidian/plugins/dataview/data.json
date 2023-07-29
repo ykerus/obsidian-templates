@@ -1,6 +1,6 @@
 {
   "renderNullAs": "\\-",
-  "taskCompletionTracking": false,
+  "taskCompletionTracking": true,
   "taskCompletionUseEmojiShorthand": false,
   "taskCompletionText": "completion",
   "taskCompletionDateFormat": "yyyy-MM-dd",

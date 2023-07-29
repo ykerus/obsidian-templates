@@ -4,7 +4,7 @@
 
 ## 👋 Introduction
 
-This repository contains an obsidian vault with templates and structures that may be useful if you struggle keeping your todos, meetings, actions, projects, etc. organised. With these templates, you can start each day with a fresh note in which you can organise and log your day. These notes are templated using Obsidian's community plugin `templater`. Forgotten todos (among other things) are queried using Obsidian's comunity plugin `dataview`, and collected in a central note, so nothing gets lost.
+This repo forms the basis of my personal Obsidian vault. Hope you find it as useful as I do!
 
 ## 🚀 Getting started
 
@@ -12,44 +12,65 @@ This repository contains an obsidian vault with templates and structures that ma
 2. Download this repository
 3. Open this repository as vault in Obsidian
 4. Create daily notes, meeting notes, projects, todos, etc.
+5. Check out the rest of this README to learn some useful workflows
 
-When you open this README in Obsidian, the file and image references in following sections will render nicely.
+Tip: Do steps 1-3 already and open this README in Obsidian. Then the following sections will be rendered nicely.
 
-> ⚠️ Only if you use this repo as your vault, your keyboard shortcuts will be the same as used in the following sections. If you incorporated the templates in this repository in your own existing vault, you might have to configure these shortcuts yourself.
+> [!WARNING]  Only if you use this repo as your entire vault, your keyboard shortcuts and plugin configurations will be the same as used in the following sections. If you incorporated the templates in this repository in your own existing vault, you will have to configure these things yourself.
+
+
+## 🧑‍🏫 The basics of Obsidian
+
+See [Obsidian](https://obsidian.md/) for help on Obsidian in general.
+See the "Community plugins" settings for information about the plugins we use.
+See [[❓ Help]] for an overview on how to tag, link to files, format, etc.
+
 
 ## 📓 Organise your days with daily notes
 
+This vault is mostly centered around **daily notes**. That is where we:
+- Write down tasks for the day 📝
+- Recover tasks we forgot to do 🧐
+- Be reminded of tasks with a due-date 🗓️
+- Write down lessons learned 🌈
+- Track our habits and anti-habits 📈
+- Be reminded of birthdays 🎉
+- Quickly navigate to meeting notes 👥
+- And more. 🚀
+
 ### 📝 Create daily notes
 
-Use the shortcut  `⌘ + D` to open today's daily note. If it doesn't exist, it will automatically create a note for you under "📓 Log/🗒 Daily/"  using the template "`_`♻️ Templates/0. 📓 Daily.md":
+Use the shortcut  `⌘ + D` to open today's daily note. If it doesn't exist, it will automatically create a note for you under "00. 📓 Log/🗒 Daily/"  using the template "`_`♻️ Templates/00. 📓 Daily.md":
 
-![[Pasted image 20221127160935.png]]
-
-Check out the [[0. 📓 Daily|daily note template]] to learn how the different sections are defined and how they can be used.
+Check out the [[00. 📓 Daily|daily note template]] to learn how the different sections are defined and how they can be used. While you're at it, check out the other templates as well!
 
 ### ↔ Navigate between daily notes
 
 There are several ways to navigate between daily notes:
 
-- Use shortcuts `⌘ + SHIFT + D` to go to the next existing daily note and `⌘ + SHIFT + A` to go to the previous existing daily note. This only works if the notes already exist.
-- Use the links that are automatically included in the daily note. E.g. clicking the link `Tomorrow`, will either open tomorrow's daily note if it exists, or create an empty file with the right title for tomorrow's note.  In the latter case, insert the daily note template by using the shortcut `⌘ + T`  and selecting the Daily note template: ![[Pasted image 20221127162631.png]] This will insert the template, and move the file to `📓 Log/🗒 Daily/`.
-- Of course you can also just open or create files using the left sidebar.
+- Use shortcuts:
+	- `⌘ + SHIFT + D`: next daily note (if it exists)
+	- `⌘ + SHIFT + A`: previous daily note (if it exists)
+	- `⌘ + D`: Today's daily note
+- Use the links that are automatically included in the daily note. E.g. clicking the link `Tomorrow`, will either open tomorrow's daily note if it exists, or create an empty file with the right title for tomorrow's note.  In the latter case, insert the daily note template by using the shortcut `⌘ + Shift + I`  and selecting the Daily note template. This will insert the template, and move the file to `📓 Log/🗒 Daily/`.
+- Or you could manually create the file (not recommended)
 
-### ◻️ Not losing any task
+### ✅ Manage your tasks
 
-You probably don't want to list all your todos in a single daily note and move them everyday to the next one. For this reason, the daily note template includes links to a [[📖 Backlog]] note, a [[_⏱ Short term|⏱ Short term]] and a [[_📆 Long term|📆 Long term]] todos note.
+If you leave an uncompleted task in a daily note, it will show up in the "Open" section in your daily notes of subsequent days.
 
-The [[📖 Backlog]] note is used to collect all open todos from several other notes, such as as uncompleted todos or actions from daily notes or meetings. This note should help you keep track of your tasks, and prevent losing any important open todos. It also helps you rember the projects you were working on or the goals that you are trying to achieve.
+If you have a task you want to do soon, but not today, put it in [[_⏱ Short term|⏱ Short term]].
+If you have a tasks you want to do at some point, but not soon, put in in [[_📆 Long term|📆 Long term]].
 
-The [[_⏱ Short term|⏱ Short term]] todos note is used to list all short term todos, which aren't yet included in any daily note. The todos in this note are also queried in the backlog note. Similar to the short term todos note, a [[_📆 Long term|📆 Long term]]  todos note is included in this repository for less time-critical todos.
+The [[📖 Backlog]] note provides an overview of where to find all these notes and todo's, and more.
 
 ### ⏱ Query time-critical todos
 
-Any todo, anywhere in the vault, may be supported by a date indicator. These help us query the todos and present them in a daily note when needed. There are two indicators supported in the current templates: a due date, and a scheduled date.
+Any todo, anywhere in the vault, may be supported by a date indicator. These help us query the todo's and present them in a daily note when needed. There are two indicators supported in the templates: a due date, and a scheduled date.
 
 #### 🗓 Todo due date
 
-If you want a todo to get done by a date `<YYYY-MM-DD>` the latest , add `🗓<YYYY-MM-DD>` to the body of the todo. E.g.:
+If you want a todo to get done by a date `<YYYY-MM-DD>` the latest , append `🗓<YYYY-MM-DD>` to the todo. E.g.:
 
 - [ ] Do something 🗓2022-12-15
 
@@ -59,49 +80,73 @@ These kind of todos appear both on the day itself and the day before the due dat
 
 If you want to be reminded earlier of a todo than a day before the due date, use `⏳<YYYY-MM-DD>` to schedule the todo for `<YYYY-MM-DD>`. From that day onwards, this todo will appear under "Due" in your daily notes. E.g.:
 
-- [ ] Do something ⏳2022-12-01 🗓2022-12-15
-
-### 🌈 Track your daily lessons
-
-Every day you (should) learn something new. You can easily write these lessons down in your daily notes under "Lessons" so they can be queried in the [[🌈 Lessons]] note. Make sure the lessons are written down as todos, otherwise they cannot be queried.
-
-### 🚩 Milestones
-
-Milestones are an important part of tracking progress. Within your daily notes, you can create a milestone by adding a todo with 🚩`<YYYY-MM-DD>` in its text. E.g.:
-
-- [ ] I made it this far in the readme! 🚩2023-01-16
+- [ ] Do something else ⏳2022-12-01 🗓2024-12-15
 
 > Tip: if you want to speed up writing dates, consider creating a keyboard shortcut to insert the current date. [This](https://discussions.apple.com/thread/8651300) helped me set it up.
 
+### 🌈 Track your daily lessons
+
+Learned something meaningful today? Write it down as a task in your daily note, under the corresponding section, and append a rainbow 🌈. E.g.:
+
+- [ ] A person learns something new every day 🌈
+
+ These lessons are queried in the [[🌈 Lessons]] note. Under the "Lessons" section in your daily note, we also randomly query one of these lessons, so you are reminded of them later on.
+
+### 🚩 Milestones
+
+Did something big happen today? Within your daily notes, you can create a milestone by appending 🚩`<YYYY-MM-DD>` to a todo. E.g.:
+
+- [ ] I made it this far in the readme! 🚩2023-01-16
+
+Check out the [[🚩 Milestones]] note to get an overview of all these events by their corresponding section.
+
+### 📈 Habit tracking 
+
+Every daily note comes with a habit tracker. You can configure this in [[📈 Habits.config]].
+
+Throughout your daily notes, you can log your habits as:
+- [ ] Today I did something I want to do more of 📈
+
+And your anti-habits as:
+- [ ] Today I did something I want to do less of 📉
+
+You can also find the habits tracker overview in [[📈 Habits]].
+
+This tracker is created using the plugin "CustomJS". The Javascript files that are used to analyse the daily notes for habits can be found under `.obsidian/scripts`.
+
+### 🌍 Scraping the news and weather
+
+One section of the daily notes contains some Python blocks.
+When these are executed, a scraper will run and grab info from news or weather websites.
+
+This is included in this template as an example.
+To make this work you should configure your "Execute Code" plugin settings.
+
+### 🎉 Birthdays
+
+Birthdays are queried from the "person" notes. You can find a template for this in the Templates folder. All you have to do is add a task in the person-note with 🎉`<yyyy-mm-dd>` and the person's birthday will appear in your daily note. E.g.
+
+- [ ] Yke Rusticus jarig 🎉`0000-01-30`
+
+Often, you probably won't know the year, but filling in `0000` for the year still works.
+
 ### 🗃 Sort daily notes
 
-Open a terminal in your vault and run `make structure` to sort all daily notes (up to today) into the 
-right folders. For example, the note `2022-11-10, ...` will be placed into the folder 
-"🗓 2022/November". `make structure` will execute `structure.py` under `.obsidian/scripts/`
+Open a terminal in your vault and run `make structure` to sort all daily notes (up to today) into  different folders. For example, the note `2022-11-10, ...` would be placed into the folder 
+"🗓 2022/November". `make structure` executes `structure.py` under `.obsidian/scripts/`
 
-Note that the script `structure.py` assumes all daily notes to be located under `📓 Log/🗒 Daily` 
-and that the folders for each year get the prefix emoji `🗓`. If you want a different structure or naming, make sure to change that in both your notes/folders and in `structure.py`
+> **Note:** this script will likely break when you change folder names.
 
-## 👥 Meeting notes and actions
+## 🤯 Meetings, goals, projects and more 
 
-### 📝 Create meeting notes
+There are a few more things you can do with this vault:
 
-You can quickly create a new meeting note following these steps:
+- **Quickly create meeting notes with the right templates**. Make sure to name your meeting notes: `<yyyy-mm-dd> Meeting Title`, only then it will appear in your daily notes. 👥
+- **Keep track of meeting actions**.  Fill in the actions under the "Actions" section and find them again in the [[🏃 Meeting actions]] overview. (Or query them again in your next meeting note) 🏃
+- **Create your notes quickly** with a pre-defined note-template. And force youself to tag it! 📝
+- **Define projects** and track their progress with tags `todo/todo`, `todo/doing`, `todo/done`. 🧩
+- **Make your goals concrete** with the goals template. 🚀
+- **Prepare for your next trip** before you even know where you're going 🗺️
 
-1. Create an empty file using `⌘ + N`
-2. Rename the file `<YYYY-MM-DD> <meeting title>` where `<YYYY-MM-DD>` is the date of the meeting
-3. Insert the meeting template
-![[Pasted image 20221127172151.png]]
-4. Move the note to the desired folder under `👥 Meeting/`
-
-### 🏃 Track your meeting actions
-
-A meeting may lead to action points. These can be listed in a meeting note under "Actions". Make sure to list them down as todos, so they may be queried in the [[🏃 Actions]] note. This note ensures that open actions do not get lost in a pile of meeting notes, but instead can always be found in a single central note.
-
-## 📄 Other templates
-
-To add an ongoig todo note, use the template [[5. ⏱ Todo]]. For example, you may want to add a note called "✍️ Blogposts" in which you list ideas for blog posts you still want to write. This note is automatically tagged with `#todo/ongoing`.
-
-To add a new project idea, use the template [[6. 🧩 Project]] .  Use the tags `#todo/todo`, `#todo/doing` and `#todo/done` to indicate the status of the project. These tags are used in the backlog note, to query the projects you might want to pick up.
-
-Check out the other ones! "7. 🚀 Goal" is my last WIP
+There are endless possibilities with Obsidian, and this vault only covers a few. 
+Please share your questions, feedback, and your own templates! 😄

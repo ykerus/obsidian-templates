@@ -1,9 +1,14 @@
 [
   "templater-obsidian",
-  "dataview",
   "table-editor-obsidian",
   "obsidian-underline",
   "obsidian-excalidraw-plugin",
   "obsidian-advanced-slides",
-  "obsidian-better-codeblock"
+  "obsidian-reminder-plugin",
+  "obsidian-image-toolkit",
+  "omnisearch",
+  "dataview",
+  "execute-code",
+  "customjs",
+  "url-into-selection"
 ]

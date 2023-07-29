@@ -2,7 +2,7 @@ import os
 from typing import Tuple
 from datetime import datetime, timedelta
 
-BASE_FOLDER = "📓 Log"
+BASE_FOLDER = "00. 📓 Log"
 DAILY_FOLDER = "🗒 Daily"
 YEAR_FOLDER_EMOJI = "🗓"
 
@@ -22,7 +22,7 @@ MONTH_NAME = {
 }
 
 
-def is_daily_note(fname: str) -> bool:
+def is_daily_note(fname: str):
     return fname.startswith("20")
 
 

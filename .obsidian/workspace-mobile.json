@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📓 Log/🗒 Daily/2022-11-18, Fri, 18 Nov.md",
+                "file": "00. 📓 Log/🗒 Daily/2023-07-29, Sat 29 Jul.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -71,6 +71,14 @@
           "type": "starred",
           "state": {}
         }
+      },
+      {
+        "id": "b8a8dfd27988d3bb",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
@@ -85,8 +93,8 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "📓 Log/🗒 Daily/2022-11-18, Fri, 18 Nov.md",
-            "collapseAll": false,
+            "file": "00. 📓 Log/🗒 Daily/2023-07-29, Sat 29 Jul.md",
+            "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
@@ -102,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "📓 Log/🗒 Daily/2022-11-18, Fri, 18 Nov.md",
+            "file": "00. 📓 Log/🗒 Daily/2023-07-29, Sat 29 Jul.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,24 +122,75 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "📓 Log/🗒 Daily/2022-11-18, Fri, 18 Nov.md"
+            "file": "00. 📓 Log/🗒 Daily/2023-07-29, Sat 29 Jul.md"
           }
+        }
+      },
+      {
+        "id": "6c5e3fe0be218b0f",
+        "type": "leaf",
+        "state": {
+          "type": "reminder-list",
+          "state": {}
         }
       }
     ],
     "currentTab": 0
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
   "active": "4ec724c73e133ce4",
   "lastOpenFiles": [
-    "👥 Meeting/🏬 IFF/MLOps/2022-11-09 Julian sanity check.md",
-    "⏱ Todo/📱 Apps.md",
-    "📓 Log/🗒 Daily/2022-11-15, Tue, 15 Nov.md",
-    "📓 Log/🗒 Daily/2022-11-14, Mon, 14 Nov.md",
-    "📓 Log/🗒 Daily/2022-11-13, Sun, 13 Nov.md",
-    "📓 Log/Daily/2022-11-11, Fri, 11 Nov.md",
-    "⏱ Todo/_⏱ Short term.md",
-    "📓 Log/Daily/2022-11-10, Thu, 10 Nov.md",
-    "📓 Log/Daily/2022-10-19, Wed, 19 Oct.md",
-    "⏱ Todo/🔍 Look up.md"
+    "_🎨 Excalidraw/2023-07-29, Sat 29 Jul 2023-07-29.excalidraw.svg",
+    "_🎨 Excalidraw/2023-07-29, Sat 29 Jul 2023-07-29.excalidraw.md",
+    "00. 📓 Log/🗒 Daily/2023-07-27, Thu 27 Jul.md",
+    "00. 📓 Log/🗒 Daily/2023-07-28, Fri 28 Jul.md",
+    "_🎨 Excalidraw/2023-07-27, Thu 27 Jul 2023-07-28.excalidraw.svg",
+    "00. 📓 Log/🗒 Daily/2023-07-29, Sat 29 Jul.md",
+    "_🎨 Excalidraw/2023-07-27, Thu 27 Jul 2023-07-28.excalidraw.md",
+    "_🎨 Excalidraw/2023-07-28, Fri 28 Jul 2023-07-28.excalidraw.md",
+    "00. 📓 Log/📈 Habits.config.md",
+    "00. 📓 Log/📈 Habits.md",
+    "23. 💬 LLMOps/ChatGPT.md",
+    "00. 📓 Log/🗒 Daily/2023-07-26, Wed 26 Jul.md",
+    "00. 📓 Log/🗒 Daily/2023-07-25, Tue 25 Jul.md",
+    "00. 📓 Log/🗒 Daily/2023-07-26, Wed 26 Jul 2.md",
+    "00. 📓 Log/🗒 Daily/2023-07-16, Sun 16 Jul.md",
+    "_🎨 Excalidraw/2023-07-24 Rabobank introductie 2023-07-23.excalidraw.svg",
+    "10. 🧑‍💻 Xebia/👨‍🏫 Training/✓ Given/2023-08-02 ING, MLOps on GCP training.md",
+    "10. 🧑‍💻 Xebia/👥 Meeting/💸 Pre-sales/2023-07-11 Jordi Enza onboarding.md",
+    "00. 📓 Log/🗒 Daily/2023-07-23, Sun 23 Jul.md",
+    "01. ⏱ Todo/💁🏻‍♀️ Lara.md",
+    "10. 🧑‍💻 Xebia/👥 Meeting/💸 Pre-sales/2023-07-14 Joost Enza kennismaking.md",
+    "10. 🧑‍💻 Xebia/👥 Meeting/💸 Pre-sales/2023-07-24 Rabobank introductie.md",
+    "00. 📓 Log/🗒 Daily/2023-07-17, Mon 17 Jul.md",
+    "21. 🛠 Technical/📚 Documentation/Markdown.md",
+    "00. 📓 Log/🗒 Daily/2023-07-10, Mon 10 Jul.md",
+    "21. 🛠 Technical/Azure/CLI.md",
+    "_📎 Attachments/Pasted image 20230716151407.png",
+    "00. 📓 Log/🗒 Daily/2023-07-14, Fri 14 Jul.md",
+    "00. 📓 Log/🗒 Daily/2023-07-12, Wed 12 Jul.md",
+    "_📎 Attachments/Pasted image 20230703152206.png",
+    "_🎨 Excalidraw/Finetuning 2023-07-04.excalidraw.svg",
+    "_📎 Attachments/Pasted image 20230704154407.png",
+    "_📎 Attachments/Pasted image 20230628224815.png",
+    "_📎 Attachments/Pasted image 20230627131908.png",
+    "_📎 Attachments/Pasted image 20230627131817.png",
+    "_📎 Attachments/Pasted image 20230628221516.png",
+    "_📎 Attachments/Becoming a tech speaker/Marysia - presentation.pdf",
+    "_📎 Attachments/IMG_2925.heic",
+    "Makefile"
   ]
 }

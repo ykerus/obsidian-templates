@@ -3,5 +3,23 @@
   "promptDelete": false,
   "attachmentFolderPath": "_📎 Attachments",
   "showInlineTitle": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "00. 📓 Log/",
+    "03. 👨‍🏫 Training/✓ Given/",
+    "22. 🎄 Holiday/🗺 Trip/",
+    "_♻️ Templates/"
+  ],
+  "mobileToolbarCommands": [
+    "editor:toggle-checklist-status",
+    "editor:attach-file",
+    "editor:unindent-list",
+    "editor:indent-list",
+    "editor:toggle-keyboard",
+    "editor:undo",
+    "editor:redo",
+    "editor:toggle-bullet-list",
+    "editor:insert-link",
+    "editor:configure-toolbar"
+  ]
 }

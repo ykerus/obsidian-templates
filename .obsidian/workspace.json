@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1b0a17d1c66678a7",
+        "id": "eeed1f8a064556a0",
         "type": "tabs",
         "children": [
           {
-            "id": "5556cec2c1060c9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ceb845064dea51b",
+            "id": "b30563e4c8eacafd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,12 +48,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#development",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
@@ -77,12 +64,31 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "929ecf6c6d1cab8e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e7c506d6df3affaa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 249.50390243530273
   },
   "right": {
     "id": "f1571c7727375f2c",
@@ -91,7 +97,7 @@
       {
         "id": "3ac9e5c69964f7bc",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 44.635627530364374,
         "children": [
           {
             "id": "9153a4978021a0f1",
@@ -123,17 +129,6 @@
             }
           },
           {
-            "id": "929ecf6c6d1cab8e",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "677ad2919d62cc52",
             "type": "leaf",
             "state": {
@@ -150,14 +145,22 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "e721089641868114",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "2fe0ac50ea5409e3",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 55.364372469635626,
         "children": [
           {
             "id": "9f3aa7d111112672",
@@ -169,7 +172,7 @@
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 1,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -188,7 +191,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.1822256379605645,
+                  "scale": 0.3855916570754544,
                   "close": true
                 }
               }
@@ -198,33 +201,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "5ceb845064dea51b",
+  "active": "b30563e4c8eacafd",
   "lastOpenFiles": [
-    "📓 Log/🗒 Daily/2023-01-17, Tue 17 Jan.md",
-    "📓 Log/🗒 Daily/Untitled.md",
-    "📓 Log/🗒 Daily/2023-01-14, Sat 14 Jan.md",
+    "00. 📓 Log/🗒 Daily/2023-07-31, Mon 31 Jul.md",
+    "10. 🧑‍💻 Work1/👥 Meeting/2023-07-31 Some meeting.md",
+    "00. 📓 Log/🗒 Daily/2023-07-29, Sat 29 Jul.md",
+    "00. 📓 Log/📈 Habits.config.md",
     "README.md",
-    "🪧 Presentation/Presentation.md",
-    "_📎 Attachments/Pasted image 20230115212635.png",
-    "_📎 Attachments/Pasted image 20221127162631.png",
-    "_📎 Attachments/Pasted image 20221127160935.png",
-    "file name.md",
-    "new file.md"
+    "01. ⏱ Todo/🧩 Project/Make obsidian template repo.md",
+    "❓ Help.md",
+    "Pasted image 20221127160935.png.md",
+    "_♻️ Templates/77. 🙎‍♀️ Person.md",
+    "_♻️ Templates/55. 👨‍🏫 Training.md",
+    "36. 🕺 People/lalal.md",
+    "_♻️ Templates/66. 🍽 Recipe.md",
+    "10. 🧑‍💻 Work1/👥 Meeting/📈 1on1",
+    "2023-07-29 meeting.md",
+    "_♻️ Templates/67. 🗺 Trip.md",
+    "_♻️ Templates/35. 🚀 Goal.md",
+    "_♻️ Templates/00. 📓 Daily.md",
+    "_♻️ Templates/11. 👥 Meeting.md",
+    "_♻️ Templates/12. 🧍‍♀️ Standup.md",
+    "_♻️ Templates/13. 📈 1on1.md",
+    "_♻️ Templates/22. 📝 Note.md",
+    "_♻️ Templates/33. ⏱ Todo.md",
+    "_♻️ Templates/34. 🧩 Project.md",
+    "_♻️ Templates/44. 👩‍🏫 Interview.md",
+    "01. ⏱ Todo/🧠 Development.md",
+    "2023-07-29.md",
+    "01. ⏱ Todo/🧩 Project/Some project that I still want to do.md",
+    "36. 🕺 People/🧑‍💻 Work1",
+    "36. 🕺 People/👨‍💼 Work2",
+    "36. 🕺 People/🧑‍💻 Xebia",
+    "36. 🕺 People/🙋‍♂️ Personal",
+    "36. 🕺 People/👫 Friend",
+    "36. 🕺 People/👨‍💼 Client",
+    "36. 🕺 People/👨‍👩‍👧‍👦 Family",
+    "36. 🕺 People",
+    "30. 🏡 Personal/🚀 Goals",
+    "_🎨 Excalidraw/2023-07-29, Sat 29 Jul 2023-07-29.excalidraw.svg",
+    "_🎨 Excalidraw/Templates/priority-map.excalidraw.svg",
+    "_🎨 Excalidraw/Untitled 2023-01-27.excalidraw.svg",
+    "_🎨 Excalidraw/2023-07-27, Thu 27 Jul 2023-07-28.excalidraw.svg",
+    "_🎨 Excalidraw/2023-07-24 Rabobank introductie 2023-07-23.excalidraw.svg",
+    "_🎨 Excalidraw/Templates/ideal-present.excalidraw.svg",
+    "_🎨 Excalidraw/2023-07-23, Sun 23 Jul 2023-07-22.excalidraw.svg",
+    "_🎨 Excalidraw/Finetuning 2023-07-04.excalidraw.svg",
+    "_🎨 Excalidraw/2023-07-22, Sat 22 Jul 2023-07-22.excalidraw.svg",
+    "00. 📓 Log/🗒 Daily/2022-12-22 Alex alignment MLOps 2022-12-20.excalidraw.svg"
   ]
 }

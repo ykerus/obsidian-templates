@@ -9,7 +9,14 @@
   ],
   "editor:open-link-in-new-leaf": [],
   "insert-template": [],
-  "workspace:new-tab": [],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
   "script-launcher:run-script": [
     {
       "modifiers": [
@@ -68,9 +75,10 @@
   "templater-obsidian:insert-templater": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
-      "key": "T"
+      "key": "I"
     }
   ],
   "editor:insert-wikilink": [],
@@ -100,15 +108,7 @@
       "key": "Q"
     }
   ],
-  "workspace:toggle-pin": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "P"
-    }
-  ],
+  "workspace:toggle-pin": [],
   "editor:fold-less": [
     {
       "modifiers": [
@@ -158,7 +158,7 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Ctrl"
+        "Alt"
       ],
       "key": "A"
     }
@@ -241,6 +241,49 @@
         "Mod"
       ],
       "key": "'"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "global-search:open": [],
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "omnisearch:show-modal-infile": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "templater-obsidian:_♻️ Templates/00. 📓 Daily.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
     }
   ]
 }

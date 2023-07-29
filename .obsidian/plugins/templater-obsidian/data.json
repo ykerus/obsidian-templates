@@ -15,13 +15,13 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "📓 Log/🗒 Daily",
-      "template": "_♻️ Templates/0. 📓 Daily.md"
+      "folder": "00. 📓 Log",
+      "template": "_♻️ Templates/00. 📓 Daily.md"
     }
   ],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [
-    ""
+    "_♻️ Templates/00. 📓 Daily.md"
   ],
   "startup_templates": [
     ""
