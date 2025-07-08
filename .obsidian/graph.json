@@ -1,37 +1,37 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-tag:#daily -tag:#template",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "#log",
+      "query": "tag:meeting  ",
       "color": {
         "a": 1,
-        "rgb": 3552822
+        "rgb": 14048348
       }
     },
     {
-      "query": "#meeting",
+      "query": "tag:collection  ",
       "color": {
         "a": 1,
-        "rgb": 3552822
+        "rgb": 9084917
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.87369791666667,
-  "lineSizeMultiplier": 2.35245311049211,
-  "collapse-forces": true,
-  "centerStrength": 0.389340761374188,
-  "repelStrength": 10.3019205729167,
+  "textFadeMultiplier": 0.4,
+  "nodeSizeMultiplier": 0.953951009114583,
+  "lineSizeMultiplier": 1.41033528645833,
+  "collapse-forces": false,
+  "centerStrength": 0.654256184895833,
+  "repelStrength": 12.1321614583333,
   "linkStrength": 1,
-  "linkDistance": 158,
-  "scale": 0.2719003190317541,
-  "close": true
+  "linkDistance": 222,
+  "scale": 0.4953292997472111,
+  "close": false
 }

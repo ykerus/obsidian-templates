@@ -1,0 +1,10 @@
+{
+	"id": "date-inserter",
+	"name": "Date Inserter",
+	"version": "0.3.8",
+	"minAppVersion": "1.7.4",
+	"description": "Insert a date at the cursor position using a calendar.",
+	"author": "namikaze-40p",
+	"authorUrl": "https://github.com/namikaze-40p",
+	"isDesktopOnly": false
+}

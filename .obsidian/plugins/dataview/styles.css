@@ -3,6 +3,10 @@
     line-height: 1.0;
 }
 
+.block-language-dataview {
+    overflow-y: auto;
+}
+
 /*****************/
 /** Table Views **/
 /*****************/
@@ -19,7 +23,7 @@
 }
 
 .table-view-table > tbody > tr:hover {
-    background-color: var(--text-selection) !important;
+    background-color: var(--table-row-background-hover);
 }
 
 .table-view-table > thead > tr > th {
@@ -111,7 +115,7 @@
 
 div.dataview-error-box {
     width: 100%;
-    min-height: 150px;
+    min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;

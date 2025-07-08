@@ -1,9 +1,8 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
-  "showViewHeader": true,
   "translucency": false,
-  "baseFontSize": 16,
-  "nativeMenus": true,
-  "cssTheme": "Things"
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "mermaid"
+  ]
 }

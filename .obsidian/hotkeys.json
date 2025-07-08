@@ -1,37 +1,91 @@
 {
-  "workspace:edit-file-title": [
+  "app:go-back": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "Enter"
+      "key": "A"
     }
   ],
-  "editor:open-link-in-new-leaf": [],
-  "insert-template": [],
-  "workspace:new-tab": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
-  "script-launcher:run-script": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "R"
-    }
-  ],
-  "editor:toggle-strikethrough": [
+  "omnisearch:show-modal": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "U"
+      "key": "F"
+    }
+  ],
+  "global-search:open": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Escape"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:toggle-checklist-status": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [],
+  "table-editor-obsidian:table-control-bar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:undo-close-pane": [],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
     }
   ],
   "daily-notes": [
@@ -42,7 +96,49 @@
       "key": "D"
     }
   ],
-  "editor:delete-paragraph": [],
+  "theme:use-light": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "theme:use-dark": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ";"
+    }
+  ],
+  "markdown:add-metadata-property": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "'"
+    }
+  ],
+  "templater-obsidian:♻️ Templates/Daily.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Backspace"
+    }
+  ],
   "daily-notes:goto-next": [
     {
       "modifiers": [
@@ -61,17 +157,24 @@
       "key": "A"
     }
   ],
-  "editor:toggle-checklist-status": [
+  "obsidian-timestamper:obsidian-fast-datestamp": [
     {
       "modifiers": [
-        "Mod"
+        "Alt",
+        "Ctrl"
       ],
-      "key": "1"
+      "key": "D"
     }
   ],
-  "workspace:goto-tab-1": [],
-  "editor:insert-embed": [],
-  "templater-obsidian:_♻️ Templates/Daily note.md": [],
+  "date-inserter:open-calendar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
   "templater-obsidian:insert-templater": [
     {
       "modifiers": [
@@ -81,209 +184,68 @@
       "key": "I"
     }
   ],
-  "editor:insert-wikilink": [],
-  "editor:toggle-highlight": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ],
-  "obsidian-tasks-plugin:edit-task": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "2"
-    }
-  ],
-  "workspace:goto-tab-2": [],
-  "workspace:toggle-stacked-tabs": [],
-  "workspace:close-others": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Q"
-    }
-  ],
-  "workspace:toggle-pin": [],
-  "editor:fold-less": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "="
-    }
-  ],
-  "editor:fold-more": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "-"
-    }
-  ],
-  "editor:fold-all": [],
-  "editor:unfold-all": [],
-  "workspace:goto-last-tab": [],
-  "workspace:undo-close-pane": [],
-  "table-editor-obsidian:table-control-bar": [
+  "templater-obsidian:replace-in-file-templater": [],
+  "templater-obsidian:create-new-note-from-template": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "T"
+      "key": "N"
     }
   ],
-  "theme:switch": [],
-  "theme:use-light": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
-  "theme:use-dark": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": ";"
-    }
-  ],
-  "app:go-back": [
+  "file-explorer:new-file-in-new-pane": [],
+  "app:go-forward": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "A"
+      "key": "D"
     }
   ],
-  "obsidian-excalidraw-plugin:insert-link-to-element": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "K"
-    }
-  ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "Enter"
-    }
-  ],
-  "window:zoom-in": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "="
-    }
-  ],
-  "window:zoom-out": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "-"
-    }
-  ],
-  "app:delete-file": [
+  "file-explorer:new-file": [],
+  "quickadd:runQuickAdd": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "Escape"
+      "key": "N"
     }
   ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-popout": [],
   "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "obsidian-shellcommands:shell-command-jifn48mu15": [
     {
       "modifiers": [
         "Alt",
         "Shift"
       ],
-      "key": "Enter"
+      "key": "A"
     }
   ],
-  "app:toggle-left-sidebar": [
+  "obsidian-shellcommands:shell-command-ybbkwupvw9": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "J"
-    }
-  ],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
-  "editor:toggle-source": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "'"
-    }
-  ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "F"
-    }
-  ],
-  "global-search:open": [],
-  "editor:open-search": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ],
-  "omnisearch:show-modal-infile": [],
-  "command-palette:open": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    },
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "P"
-    }
-  ],
-  "templater-obsidian:_♻️ Templates/00. 📓 Daily.md": [
-    {
-      "modifiers": [
-        "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "S"
+    }
+  ],
+  "copilot:chat-open-window": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
     }
   ]
 }

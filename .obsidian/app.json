@@ -1,25 +1,26 @@
 {
-  "livePreview": true,
-  "promptDelete": false,
-  "attachmentFolderPath": "_📎 Attachments",
-  "showInlineTitle": false,
-  "alwaysUpdateLinks": true,
-  "userIgnoreFilters": [
-    "00. 📓 Log/",
-    "03. 👨‍🏫 Training/✓ Given/",
-    "22. 🎄 Holiday/🗺 Trip/",
-    "_♻️ Templates/"
-  ],
+  "spellcheck": true,
+  "useTab": false,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "📥 Inbox",
+  "attachmentFolderPath": "📎 Attachments",
+  "promptDelete": true,
   "mobileToolbarCommands": [
-    "editor:toggle-checklist-status",
-    "editor:attach-file",
-    "editor:unindent-list",
+    "editor:cycle-list-checklist",
     "editor:indent-list",
-    "editor:toggle-keyboard",
+    "editor:unindent-list",
     "editor:undo",
     "editor:redo",
-    "editor:toggle-bullet-list",
+    "editor:attach-file",
+    "editor:configure-toolbar",
+    "editor:insert-wikilink",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
     "editor:insert-link",
-    "editor:configure-toolbar"
-  ]
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list"
+  ],
+  "alwaysUpdateLinks": true
 }
