@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "_♻️ Templates",
+  "templates_folder": "♻️ Templates",
   "templates_pairs": [
     [
       "",
@@ -15,13 +15,14 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "00. 📓 Log",
-      "template": "_♻️ Templates/00. 📓 Daily.md"
+      "folder": "",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "_♻️ Templates/00. 📓 Daily.md"
+    "♻️ Templates/Daily.md"
   ],
   "startup_templates": [
     ""

@@ -1,0 +1,10 @@
+{
+  "format": "yyyy-mm-dd",
+  "language": "en",
+  "weekStart": 1,
+  "todayHighlight": true,
+  "daysOfWeekHighlighted": {
+    "sun": 0,
+    "sat": 6
+  }
+}

@@ -1,156 +1,156 @@
-# Obsidian templates
+# Obsidian templates 
 
----
+```table-of-contents
+```
 
 ## 👋 Introduction
 
 This repo forms the basis of my personal Obsidian vault. Hope you find it as useful as I do!
 
+It can be used as a starting point of a new vault, or as inspiration for your existing vault.
+
 ## 🚀 Getting started
 
 1. Install [Obsidian](https://obsidian.md/)
 2. Download this repository
-3. Open this repository as vault in Obsidian
-4. Create daily notes, meeting notes, projects, todos, etc.
-5. Check out the rest of this README to learn some useful workflows
+3. Rename the repository "Obsidian"
+4. Open this repository as vault in Obsidian (make sure the vault is called "Obsidian")
+5. Install remaining plugins manually (see [[README#⚙️ Manual installations|⚙️ Manual installations]])
+6. Create daily notes, meeting notes, drawings, todos, etc.
+7. Check out the rest of this README to learn some useful workflows
 
-Tip: Do steps 1-3 already and open this README in Obsidian. Then the following sections will be rendered nicely.
+> 💡 **Tip**: Do steps 1-3 already and open this README in Obsidian. Then the following sections will be rendered nicely.
 
-> [!WARNING]  Only if you use this repo as your entire vault, your keyboard shortcuts and plugin configurations will be the same as used in the following sections. If you incorporated the templates in this repository in your own existing vault, you will have to configure these things yourself.
-
+> [!WARNING] Only if you use this repo as your entire vault, your keyboard shortcuts and plugin configurations will be the same as used in the following sections. If you incorporated the templates in this repository in your own existing vault, you will have to configure these things yourself.
 
 ## 🧑‍🏫 The basics of Obsidian
 
-See [Obsidian](https://obsidian.md/) for help on Obsidian in general.
-See the "Community plugins" settings for information about the plugins we use.
-See [[❓ Help]] for an overview on how to tag, link to files, format, etc.
+See [Obsidian](https://obsidian.md/) for help on Obsidian in general. See the "Community plugins" settings in this vault for information about the plugins we use.
 
+## 🧑‍💻 How to work with this vault
 
-## 📓 Organise your days with daily notes
+Below are the most important workflows I use. There may be more, but you'll figure those out. And you can of course also change this vault to your liking.
 
-This vault is mostly centered around **daily notes**. That is where we:
-- Write down tasks for the day 📝
-- Recover tasks we forgot to do 🧐
-- Be reminded of tasks with a due-date 🗓️
-- Write down lessons learned 🌈
-- Track our habits and anti-habits 📈
-- Be reminded of birthdays 🎉
-- Quickly navigate to meeting notes 👥
-- And more. 🚀
+### ☀️ Start your day with a fresh daily note
 
-### 📝 Create daily notes
+Hit `CMD + D` to open today's daily note. This note is based on a configurable template [[Daily]] in the templates folder.
 
-Use the shortcut  `⌘ + D` to open today's daily note. If it doesn't exist, it will automatically create a note for you under "00. 📓 Log/🗒 Daily/"  using the template "`_`♻️ Templates/00. 📓 Daily.md":
+In your daily note, you can add meeting notes, work todo's, personal todo's and more through buttons.
 
-Check out the [[00. 📓 Daily|daily note template]] to learn how the different sections are defined and how they can be used. While you're at it, check out the other templates as well!
+The todo's and files you see in your daily note live elsewhere in the vault to keep things organized. Todo's, for example are collected in [[🧑‍💻 Work todos]] and [[🏡 Personal todos]].
 
-### ↔ Navigate between daily notes
+### 📅 Be reminded of scheduled or forgotten todo's
 
-There are several ways to navigate between daily notes:
+When you add a todo from your daily note, it will be added as:
 
-- Use shortcuts:
-	- `⌘ + SHIFT + D`: next daily note (if it exists)
-	- `⌘ + SHIFT + A`: previous daily note (if it exists)
-	- `⌘ + D`: Today's daily note
-- Use the links that are automatically included in the daily note. E.g. clicking the link `Tomorrow`, will either open tomorrow's daily note if it exists, or create an empty file with the right title for tomorrow's note.  In the latter case, insert the daily note template by using the shortcut `⌘ + Shift + I`  and selecting the Daily note template. This will insert the template, and move the file to `📓 Log/🗒 Daily/`.
-- Or you could manually create the file (not recommended)
+- [ ] `[[<date>]]` This is a todo
 
-### ✅ Manage your tasks
+in the corresponding todo file, with `<date>` the date of the daily note.
 
-If you leave an uncompleted task in a daily note, it will show up in the "Open" section in your daily notes of subsequent days.
+In today's and all subsequent daily notes, this todo will remain visible until it is checked. So you'll never forget your tasks!
 
-If you have a task you want to do soon, but not today, put it in [[_⏱ Short term|⏱ Short term]].
-If you have a tasks you want to do at some point, but not soon, put in in [[_📆 Long term|📆 Long term]].
+That also means that you can manually change the date the todo appears in your daily note by editing the `<date>` in the todo directly. This way you can schedule todo's. 💡
 
-The [[📖 Backlog]] note provides an overview of where to find all these notes and todo's, and more.
+Can't figure out what date belongs the day you have in mind? Try `Option + Shift + →`.
 
-### ⏱ Query time-critical todos
+### 🔜 Save todo's and inspiration for later
 
-Any todo, anywhere in the vault, may be supported by a date indicator. These help us query the todo's and present them in a daily note when needed. There are two indicators supported in the templates: a due date, and a scheduled date.
+Do you have todo's that don't fit in the daily note, because you just want to do them in some point of your life? Put them in the [[🕰️ Later todos]] or [[🔜 Soon todos]].
 
-#### 🗓 Todo due date
+Or, if the todo is not really a *todo*, but rather inspiration for a [[📑 Lees inspiratie|book]] to read, or a [[🎥 Films inspiratie|film]] to watch, try the Collections folder. 
 
-If you want a todo to get done by a date `<YYYY-MM-DD>` the latest , append `🗓<YYYY-MM-DD>` to the todo. E.g.:
+### 👥 Add meeting notes
 
-- [ ] Do something 🗓2022-12-15
+Quickly add meetings from your daily note with a click on a button.
 
-These kind of todos appear both on the day itself and the day before the due date in your daily note under "Due". If the due date has passed, this todo will appear under "Late".
+Unfortunately, this doesn't work exactly the same as todo's that automatically get the date of the daily note attached. Instead, there are two options:
 
-#### ⏳ Todo scheduled date
+1. Add note with *today*'s date (independent of daily note)
+2. Add note with custom date (`yyyy-mm-dd`)
 
-If you want to be reminded earlier of a todo than a day before the due date, use `⏳<YYYY-MM-DD>` to schedule the todo for `<YYYY-MM-DD>`. From that day onwards, this todo will appear under "Due" in your daily notes. E.g.:
+The first is to quickly add a note for a meeting you're in or about to have.
+The second is to "schedule" a meeting note, as the meeting note will appear in your daily note when the date matches.
 
-- [ ] Do something else ⏳2022-12-01 🗓2024-12-15
+The meeting note is also templated, which you can customize here: [[Meeting]]
 
-> Tip: if you want to speed up writing dates, consider creating a keyboard shortcut to insert the current date. [This](https://discussions.apple.com/thread/8651300) helped me set it up.
+### 🎨 Quickly draw up your ideas
 
-### 🌈 Track your daily lessons
+Using the Excalidraw plugin, you can quickly open a new canvas with `CMD + Enter` and start drawing. For more info, see the docs of the plugin.
 
-Learned something meaningful today? Write it down as a task in your daily note, under the corresponding section, and append a rainbow 🌈. E.g.:
+### 🎉 Be reminded of birthdays
 
-- [ ] A person learns something new every day 🌈
+By adding people notes with a birthday (year is not necessary), you will be reminded of birthdays in the corresponding daily note!
 
- These lessons are queried in the [[🌈 Lessons]] note. Under the "Lessons" section in your daily note, we also randomly query one of these lessons, so you are reminded of them later on.
+### 🔎 Find what you're looking for
 
-### 🚩 Milestones
+Instead of Obsidian's built-in search functionality, this vault makes use of the plugin Omnisearch. See the plugin docs for more information. It works very well!
 
-Did something big happen today? Within your daily notes, you can create a milestone by appending 🚩`<YYYY-MM-DD>` to a todo. E.g.:
+Note that some tags are given lower priority in the search results, such as `#archive`. You can configure this as you like.
 
-- [ ] I made it this far in the readme! 🚩2023-01-16
+### ✍️ Keep your knowledge tidy with minimal effort
 
-Check out the [[🚩 Milestones]] note to get an overview of all these events by their corresponding section.
+This vault is based on the assumption that you will *not* keep things tidy by default. (At least I don't). So there are structures and tools in place to help you out.
 
-### 📈 Habit tracking 
+**Scratch, info and archived notes**
 
-Every daily note comes with a habit tracker. You can configure this in [[📈 Habits.config]].
+For example, it's hard to create a new non-templated note. Try `CMD + N`, it will allow you to create a `#scratch` note (with the [[Scratch]] template). This can be compared to a piece of paper you use to write down your first thoughts. 
 
-Throughout your daily notes, you can log your habits as:
-- [ ] Today I did something I want to do more of 📈
+Later, the `#scratch` note can be promoted to `#note` note, or demoted to `#archive`. `#note` or "info" notes should add knowledge to your vault that you always want to have available. `#archive` notes should have info that you don't always need, but you just want to "remember" it. Any other notes may be deleted.
 
-And your anti-habits as:
-- [ ] Today I did something I want to do less of 📉
+By default, scratch notes get the tag `#keep-in-daily`, so the note stays visible in your daily note. This will remind you that it's still actively being edited, or it will remind you to demote or promote it.
 
-You can also find the habits tracker overview in [[📈 Habits]].
+To promote/demote notes quickly, you can use the invisible scripts from the Scripts folder with `Option + Shift + S` (convert `#scratch` to `#note` and vice versa), and `Option + Shift + A` (convert any note to `#archive` and back). 
 
-This tracker is created using the plugin "CustomJS". The Javascript files that are used to analyse the daily notes for habits can be found under `.obsidian/scripts`.
+**Inbox folder for uncategorized files**
 
-![[Pasted image 20230729185113.png|600]]
+New non-templated notes (if you manage to create one) and un-archived notes end up in the Inbox folder. The goal is to keep the Inbox and Scratch notes folder as empty as possible over time.
 
-### 🌍 Scraping the news and weather
+**Cleaning up unused attachments**
 
-One section of the daily notes contains some Python blocks.
-When these are executed, a scraper will run and grab info from news or weather websites.
+There is also a script in this vault that will help you to clean up unused attachments. From the command palette, select "Shell commands: Execute: Clean up attachments" to delete attachments that are not referenced anywhere in your vault. This includes Excalidraw drawings and any other file in the Attachments folder.
 
-This is included in this template as an example.
-To make this work you should configure your "Execute Code" plugin settings.
+**Finding untagged or unused notes**
 
-![[Pasted image 20230729185208.png|600]]
+See [[🏷️ Tag list]] and [[📃 Page sizes]] to identify notes with the least tags or least character count. Those could indicate that the note is not adding much value to your vault.
 
-### 🎉 Birthdays
+### 🤖 Automate and configure
 
-Birthdays are queried from the "person" notes. You can find a template for this in the Templates folder. All you have to do is add a task in the person-note with 🎉`<yyyy-mm-dd>` and the person's birthday will appear in your daily note. E.g.
+Automations (like buttons, scripts and shortcuts) are mostly made possible through plugins such as QuickAdd and Shell commands. In the plugin settings you can see how different automations in this vault were configured. 
 
-- [ ] Yke jarig 🎉`0000-01-30`
+Feel free to change them, as well as keyboard shortcuts, and anything else in this vault.
 
-Often, you probably won't know the year, but filling in `0000` for the year still works.
+## ⚙️ Manual installations
 
-### 🗃 Sort daily notes
+**Install Excalidraw plugin manually if it does not work on first launch**
+- In this case, manually install the Excalidraw plugin `obsidian-excalidraw-plugin` again from the community plugins.
+- Then, set the following configurations either in the plugin settings overview, or directly in `.obsidian/plugins/obsidian-excalidraw-plugin/data.json`:
+```json
+{
+    "folder": "🎨 Excalidraw/Drawings",
+    "cropFolder": "🎨 Excalidraw/Cropped",
+    "annotateFolder": "🎨 Excalidraw/Annotated",
+    "embedUseExcalidrawFolder": true,
+    "templateFilePath": "🎨 Excalidraw/Template.excalidraw",
+    "scriptFolderPath": "🎨 Excalidraw/Scripts"
+}
+```
 
-Open a terminal in your vault and run `make structure` to sort all daily notes (up to today) into  different folders. For example, the note `2022-11-10, ...` would be placed into the folder 
-"🗓 2022/November". `make structure` executes `structure.py` under `.obsidian/scripts/`
+**(optional) Install Copilot plugin for access to LLMs in Obsidian**
+- Install the plugin `copilot` if you already have access to an LLM provider, and you want to be able to access the LLMs through Obsidian.
+- The following settings can be used as inspiration:
+```json
+{
+    "defaultSaveFolder": "💬 Copilot/Conversations",
+    "defaultConversationTag": "#copilot",
+    "autosaveChat": false,
+    "defaultOpenArea": "view",
+    "customPromptsFolder": "💬 Copilot/Prompts",
+    "indexVaultToVectorStore": "ON MODE SWITCH",
+    "qaExclusions": "%23daily",
+    "qaInclusions": "%23note,%23scratch,%23meeting,%23copilot",
+}
+```
 
-> **Note:** this script will likely break when you change folder names.
+## 🙋‍♀️ Questions?
 
-## 🤯 Meetings, goals, projects and more 
-
-There are a few more things you can do with this vault:
-
-- **Quickly create meeting notes with the right templates**. Make sure to name your meeting notes: `<yyyy-mm-dd> Meeting Title`, only then it will appear in your daily notes. 👥
-- **Keep track of meeting actions**.  Fill in the actions under the "Actions" section and find them again in the [[🏃 Meeting actions]] overview. (Or query them again in your next meeting note) 🏃
-- **Create your notes quickly** with a pre-defined note-template. And force youself to tag it! 📝
-- **Define projects** and track their progress with tags `todo/todo`, `todo/doing`, `todo/done`. 🧩
-- **Make your goals concrete** with the goals template. 🚀
-- **Prepare for your next trip** before you even know where you're going 🗺️
-
-There are endless possibilities with Obsidian, and this vault only covers a few. 
-Please share your questions, feedback, and your own templates! 😄
+Raise an issue in Github and I'll try to help you out.

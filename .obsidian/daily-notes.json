@@ -1,5 +1,5 @@
 {
-  "folder": "00. 📓 Log/🗒 Daily",
-  "template": "",
-  "format": "YYYY-MM-DD, ddd D MMM"
+  "folder": "🗒️ Daily",
+  "format": "YYYY-MM-DD",
+  "template": "♻️ Templates/Daily"
 }
